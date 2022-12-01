@@ -30,4 +30,6 @@ end
 puts "Part 2 \n"
 puts "Sum of top 3 elf's calories: #{total_calories}"
 
-
+#This soulution has a BigO value of o(n). 
+#It doesn't account for errors in the input data (it assumes its always a list of integers). 
+#It also assumes that there should always be >=3 elfs in the given data.
