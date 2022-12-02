@@ -1,10 +1,3 @@
-#Opponent:  A- Rock | B- Paper | C- Scizors
-#Player:    X- Rock | Y- Paper | Z- Scizors
-#Round:     X- Won  | Y- Lost  | Z- Draw 
-#   Scoring
-#Play        : 1- Rock | 2- Paper | 3- Scizors
-#Round Result: 0- Lost | 3- Draw  | 6- Won
-
 PLAYS = { rock: { vs_rock: 0, vs_paper: -1, vs_scizors: 1 }, 
 paper: { vs_paper: 0, vs_rock: 1, vs_scizors: -1 }, 
 scizors: { vs_scizors: 0, vs_rock: -1, vs_paper: 1 } 
@@ -85,5 +78,5 @@ end
 puts "Puzzle #1 \n"
 play_game(1)
 puts "\n \nPuzzle #2 \n"
-#Puzzle #2 - Knowing that X,Y,Z means what should each round end as (win, lose, draw)
+#Puzzle #2 - Knowing that X,Y,Z means what should each round end as (lose, draw or win)
 play_game(2)
