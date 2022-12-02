@@ -1,7 +1,7 @@
 PLAYS = { rock: { vs_rock: 0, vs_paper: -1, vs_scizors: 1 }, 
-paper: { vs_paper: 0, vs_rock: 1, vs_scizors: -1 }, 
-scizors: { vs_scizors: 0, vs_rock: -1, vs_paper: 1 } 
-}
+          paper: { vs_paper: 0, vs_rock: 1, vs_scizors: -1 }, 
+          scizors: { vs_scizors: 0, vs_rock: -1, vs_paper: 1 } 
+        }
 
 PLAYERS_PLAYS = { A: { label: 'rock', points: 1 }, 
         B: { label: 'paper', points: 2}, 
