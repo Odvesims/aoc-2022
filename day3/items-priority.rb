@@ -82,6 +82,7 @@ def find_matching_item(compartments)
 end
 
 def get_badge_item(group)
+  #Needs refactoring so that it maps through the hash and finds the duplicate in all key/pair values, not just the 3 that's searching for ATM.
   guide_index = (group[:elf_1] & group[:elf_2] & group[:elf_3])
   if guide_index[0] == nil
     return 0
